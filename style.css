@@ -1,0 +1,185 @@
+
+:root{
+    --primary:rgb(109,29,142);
+    --secondary:#DECCFF;
+}
+
+.hero{
+    background-color: var(--secondary);
+}
+
+.btn{
+    background-color: var(--primary);
+    border-radius: 100px;
+    margin-top: 5px;
+}
+
+.search h1 {
+    text-align: center;
+    color:var(--primary);
+
+}
+
+.search p {
+    
+    padding-left: 200px;
+    padding-right:200px ;
+
+}
+
+.col-md{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px;
+    border-radius: 20px;
+    height: 500px;
+    width: 350px;
+    transition: ease-in 0.3s;
+
+}
+
+.icons{
+    display: flex;
+    background-color: rgb(237, 234, 234);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    transition: ease-in 0.3s;
+}
+
+
+
+.ic2 img{
+    position:absolute;
+  
+    
+}
+
+
+
+
+
+body > section.hero > div > div > div:nth-child(1){
+    background-image: url('https://i.postimg.cc/yNhLRHF9/data-science-removebg-preview.png');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.btn-primary{
+    color: var(--primary);
+    font-weight: bold;
+    height: 40px;
+    width:120px;
+    border: none;
+    background-color:rgb(237, 234, 234);
+    border-radius:50px ;
+    left:120px ;
+}
+
+.underline a{
+
+    text-decoration: none;
+}
+
+body > section.image.mt-5 > div > div > div:nth-child(1) {
+background-image: url('https://www.luminartechnolab.com/static/media/MaskGroup4.2ce48556.png');
+background-position: center;
+background-size: cover;
+height: 700px;
+}
+
+
+
+
+.col-md:hover{
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.icons:hover{
+    background-color: var(--secondary);
+}
+
+.btn-primary:hover{
+    background-color: var(--secondary);
+}
+
+
+ @media only screen and (max-width: 480px){
+
+    body > section.hero > div > div > div:nth-child(1) > img
+    {
+        height: 350px;
+        width: 350px;
+    }
+
+    
+
+    .col-md-3{
+        position: relative;
+        padding: 10px;
+        border-radius: 20px;
+        height: 600px;
+        width: 300px;
+        transition: ease-in 0.3s;
+    
+    }
+
+    .icons{
+        left:110px;
+        background-color: rgb(237, 234, 234);
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        position: relative;
+        transition: ease-in 0.3s;
+    }
+    
+    .ic1 img{
+        position:absolute;
+        top:30px;
+        left: 27px;
+        display:block;
+    }
+    
+    .ic2 img{
+        position:absolute;
+        top:30px;
+        left: 32px;
+        display:block;
+    }
+
+
+
+    .container-fluid>.row{
+            padding-left: 0px;
+            margin-left: 0px;
+        
+    }
+
+    
+ .btn-primary{
+    color: var(--primary);
+    font-weight: bold;
+    height: 40px;
+    width:120px;
+    border: none;
+    background-color:rgb(237, 234, 234);
+    border-radius:50px ;
+    position: absolute;
+    left:110px ;
+ }
+
+ .search p {
+    
+    padding-left: 0px;
+    padding-right:0px ;
+
+}
+ 
+}
+
+
